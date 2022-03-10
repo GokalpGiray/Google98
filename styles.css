@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.bg {
+    margin: 0 40px;
+}
+
+.search {
+    background-color: #eeeeee;
+    font-size: large;
+}
+
+.box1 {
+    float: left;
+    background-color: #7de5da;
+}
+
+.box2 {
+    float: center;
+    background-color: #70cbc2;
+}
+
+.box3 {
+    float: right;
+    background-color: #62b3aa;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+}
